@@ -2,17 +2,22 @@ baseurl = "/"
 languageCode = "en-us"
 title = "Skagit/Life"
 theme = "hugo-tint"
-googleAnalytics = ""
+googleAnalytics = "UA-162547372-1"
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 
 
-    
+
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
+[[menu.main]]
+    name = "Skagit/Life"
+    url = ""
+
 [params]
+    title = "Skagit/Life"
     description = "A not so strange place"
 	  showPoweredBy = false
     copyrightHolder = "Marshall D. Brown"

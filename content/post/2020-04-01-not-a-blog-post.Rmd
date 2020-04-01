@@ -13,9 +13,18 @@ blogdown::html_page:
   toc: TRUE
 ---
 
+seriously, its not. 
 
+I'm just trying to plot something to see if it works. 
 
-```{r setup, include=FALSE}
-barplot(rnorm(100),col = "dodgerblue2")
+like this: \@ref(fig:pie) 
+
+```{r pie, fig.cap='A fancy pie chart.', tidy=FALSE}
+par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c('Sky', 'Sunny side of pyramid', 'Shady side of pyramid'),
+  col = c('#0292D8', '#F7EA39', '#C4B632'),
+  init.angle = -50, border = NA
+)
 ```
-
