@@ -1,0 +1,21 @@
+---
+title: There may be a blog post here someday 
+author: Marshall
+date: '2020-04-01'
+slug: introducing-hugo-tint
+categories: ["Blogdown", "example"]
+excerpt: But not today
+bibliography: skeleton.bib
+link-citations: yes
+draft: no
+blogdown::html_page:
+  dev: "svg"
+  toc: TRUE
+---
+
+
+
+```{r setup, include=FALSE}
+barplot(rnorm(100),col = "dodgerblue2")
+```
+

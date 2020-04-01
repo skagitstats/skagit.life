@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/categories/blogdown/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/covid/</loc>
+    <loc>/categories/example/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/dashboard/</loc>
+    <loc>/post/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -23,23 +28,16 @@
   </url>
   
   <url>
-    <loc>/categories/blogdown/</loc>
-    <lastmod>2018-07-06T00:00:00+00:00</lastmod>
+    <loc>/2020/04/01/introducing-hugo-tint/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/example/</loc>
-    <lastmod>2018-07-06T00:00:00+00:00</lastmod>
+    <loc>/covid/</loc>
   </url>
   
   <url>
-    <loc>/2018/07/06/introducing-hugo-tint/</loc>
-    <lastmod>2018-07-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2018-07-06T00:00:00+00:00</lastmod>
+    <loc>/categories/dashboard/</loc>
   </url>
   
   <url>

@@ -12,26 +12,24 @@
     
     
     <item>
+      <title>There may be a blog post here someday</title>
+      <link>/2020/04/01/introducing-hugo-tint/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/04/01/introducing-hugo-tint/</guid>
+      <description> barplot(rnorm(100),col = &amp;quot;dodgerblue2&amp;quot;) </description>
+    </item>
+    
+    <item>
       <title>Covid-19 in Skagit Valley, Wa</title>
       <link>/covid/</link>
-      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/covid/</guid>
       <description>Total daily counts of covid-19 cases, hospitalizations and deaths reported by Skagit Public Health.
     Cases include total confirmed and presumptive positives, which means that a private lab reported a positive test.
  Hospitalized are people with positive tests who were hospitalized at any point during their illness.
-   Key events The first case in Skagit Valley was reported on March 10, 2020.</description>
-    </item>
-    
-    <item>
-      <title>Introducing hugo-tint</title>
-      <link>/2018/07/06/introducing-hugo-tint/</link>
-      <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/07/06/introducing-hugo-tint/</guid>
-      <description>The Basics This Hugo theme is intended for use with R blogdown. Before starting, see (Allaire et al. 2018) for more info about rmarkdown and (Xie, Thomas, and Hill 2018) for more info about blogdown.
-Getting Blogdown ⊕R Console
-## Install from CRAN install.packages(&amp;#39;blogdown&amp;#39;) ## Or, install from GitHub devtools::install_github(&amp;#39;rstudio/blogdown&amp;#39;) #installs Hugo (works for Windows,macOS, and Linux) blogdown::install_hugo() #initialize a new blog blogdown::new_site() #install theme blogdown::install_theme(&amp;quot;mps9506/hugo-tint&amp;quot;)   Features Block Quotes We know from the Markdown syntax that paragraphs that start with &amp;gt; are converted to block quotes.</description>
+  The first case in Skagit Valley was reported on March 10, 2020.</description>
     </item>
     
   </channel>
