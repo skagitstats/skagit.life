@@ -1,0 +1,49 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Skagit/Life"
+theme = "hugo-tint"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+
+
+    
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[params]
+    description = "A not so strange place"
+	  showPoweredBy = false
+    copyrightHolder = "Marshall D. Brown"
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.12.0"
+    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdn.bootcss.com"
+    MathJaxVersion = "2.7.1"
+
+    [params.logo]
+    url = "/images/logo8.png"
+    width = 50
+    height = 50
+    alt = "Homegrown"
+	
+	# social icons used in footer
+	# can use any font awesome icon: http://fontawesome.io/icons/
+    [[params.social]]
+    name = "GitHub"
+    icon = "github"
+    link = "https://github.com/skagitstats"
+    [[params.social]]
+    name = "Twitter"
+    icon = "twitter"
+    link = "https://twitter.com/bignumbersbrown"
+    [[params.social]]
+    name = "LinkedIn"
+    icon = "linkedin-square"
+    link = "https://www.linkedin.com/in/marshall-d-brown"
+

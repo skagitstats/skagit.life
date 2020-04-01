@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dashboard on Skagit/Life</title>
+    <link>/categories/dashboard/</link>
+    <description>Recent content in Dashboard on Skagit/Life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/dashboard/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Covid-19 in Skagit Valley, Wa</title>
+      <link>/covid/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/covid/</guid>
+      <description>Total daily counts of covid-19 cases, hospitalizations and deaths reported by Skagit Public Health.
+    Cases include total confirmed and presumptive positives, which means that a private lab reported a positive test.
+ Hospitalized are people with positive tests who were hospitalized at any point during their illness.
+   Key events The first case in Skagit Valley was reported on March 10, 2020.</description>
+    </item>
+    
+  </channel>
+</rss>
