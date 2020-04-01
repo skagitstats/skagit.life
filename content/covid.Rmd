@@ -17,6 +17,7 @@ toc: no
 library(knitr)
 library(readr) 
 library(tidyverse)
+library(tint)
 library(DT)
 
 
@@ -33,9 +34,9 @@ pop <- read_csv("../../covid-19/data/populations.csv")
 
 ## 
 
-Total daily counts of covid-19 cases, hospitalizations and deaths reported by [Skagit Public Health](https://www.skagitcounty.net/Departments/HealthDiseases/coronavirus.htm){target="_blank"}. 
+`r tufte::newthought('Total daily counts')` of covid-19 cases, hospitalizations and deaths reported by [Skagit Public Health](https://www.skagitcounty.net/Departments/HealthDiseases/coronavirus.htm){target="_blank"}. 
 
-
+---
 
 <div id="skagitCaseChart" style="max-width:700px" ></div>
 
@@ -52,7 +53,7 @@ Total daily counts of covid-19 cases, hospitalizations and deaths reported by [S
 
 
 
-## Key events 
+--- 
 
 [The first case in Skagit Valley](https://www.goskagit.com/news/skagit-county-s-first-case-of-covid--confirmed/article_772a96af-8ab1-59aa-bb00-2b997d8b4073.html) was reported on March 10, 2020. 
 
@@ -72,7 +73,7 @@ The heatmap shows cases per capita, which is also included in the table below.
 > _(mobile users turn device for best viewing)_
 
 
-<div id="chart" style="max-width:900px"></div>
+<div id="chart"></div>
 
  
 
@@ -94,8 +95,7 @@ dat %>% as_tibble() %>%
          `Deaths per 100K`, 
          Population = scales::comma(Population)
          ) %>% 
-  datatable(width = '700px', 
-            rownames= FALSE, 
+  datatable(rownames= FALSE, 
             options = list(scrollX = TRUE,
                            order = list(list(2, 'desc')), 
                            dom = 'ftp', 
@@ -157,7 +157,7 @@ dat %>% as_tibble() %>%
 // Load the Observable runtime and inspector.
 import {Runtime, Inspector, Library} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
 
-const runtime = new Runtime(Object.assign(new Library, {width: 500}));
+const runtime = new Runtime(Object.assign(new Library));
 const main = runtime.module(notebook, name => {
   if (name === "skagitCaseChart") {
     return new Inspector(document.querySelector("#skagitCaseChart"));
@@ -186,7 +186,7 @@ import notebook from "https://api.observablehq.com/@marshallbrown/covid-19-in-wa
 import {Runtime, Inspector, Library} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
 import notebook2 from "https://api.observablehq.com/@marshallbrown/covid-19-in-washington-state/2.js?v=3";
 
-const runtime2 = new Runtime(Object.assign(new Library, {width: 800}));
+const runtime2 = new Runtime(Object.assign(new Library));
 const main2 = runtime2.module(notebook2, name => {
   if (name === "chart") {
     return new Inspector(document.querySelector("#chart"));
