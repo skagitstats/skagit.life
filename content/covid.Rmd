@@ -1,7 +1,5 @@
 ---
 title: Covid-19 in Skagit Valley, Wa
-author: Marshall Brown
-date: '2020-04-01'
 slug: covid
 categories:
   - Dashboard
