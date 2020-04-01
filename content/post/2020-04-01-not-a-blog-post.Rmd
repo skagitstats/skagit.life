@@ -17,9 +17,9 @@ seriously, its not.
 
 I'm just trying to plot something to see if it works. 
 
-like this: \@ref(fig:pie) 
+like this \@ref(fig:pie) 
 
-```{r pie, fig.cap='A fancy pie chart.', tidy=FALSE}
+```{r pie, fig.cap='hmmm.', tidy=FALSE, echo=FALSE}
 par(mar = c(0, 1, 0, 1))
 pie(
   c(280, 60, 20),
