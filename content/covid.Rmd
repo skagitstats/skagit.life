@@ -11,7 +11,7 @@ toc: no
 
 
 
-```{r setup, include=FALSE}
+```{r setup, echo=FALSE,  messages = FALSE, warning = FALSE, results = 'hide', include=FALSE}
 library(knitr)
 library(readr) 
 library(tidyverse)
@@ -73,10 +73,9 @@ The heatmap shows cases per capita, which is also included in the table below.
 
 <div id="chart" style="max-width:500"></div>
 
- 
+ --- 
 
-```{r, messages = 'hide'}
-
+```{r } 
 
 dat %>% as_tibble() %>% 
   filter(state =="Washington") %>% 
@@ -94,7 +93,7 @@ dat %>% as_tibble() %>%
          Population = scales::comma(Population)
          ) %>% 
   datatable(rownames= FALSE, 
-            width = "90%",
+            width = "95%", 
             options = list(scrollX = TRUE,
                            order = list(list(2, 'desc')), 
                            dom = 'ftp', 
@@ -103,9 +102,12 @@ dat %>% as_tibble() %>%
 ```
 
 
+---
+
+
 ## Other Resources 
 
-### Dashboards 
+**Dashboards** 
 
   1.  [Washington State Department of Health](https://www.doh.wa.gov/emergencies/coronavirus){target="_blank"}. Includes data on testing. 
 
@@ -116,7 +118,7 @@ dat %>% as_tibble() %>%
   4.  [Genomic epidemiology of novel coronavirus at nextstrain](https://nextstrain.org/ncov){target="_blank"}. Science! 
 
 
-### Blogs
+**Blogs**
 
  - [Tracking covid-19 from the financial times](https://www.ft.com/coronavirus-latest){target="_blank"}. Great article with lots of world wide data updated daily.  
 
@@ -126,8 +128,7 @@ dat %>% as_tibble() %>%
 
  - Trevor Bedfords blog: Latest post is [Cryptic transmission of novel coronavirus revealed by genomic epidemiology](https://bedford.io/blog/){target="_blank"}. [His twitter](https://twitter.com/trvrb) is a great resource as well.   
  
-
-### Videos 
+**Videos**
  
 - [How To Tell If We're Beating COVID-19 by minutephysics](https://www.youtube.com/watch?v=54XLXg4fYsc){target="_blank"}
    - [Interactive dashboard that replicates the one in the video.](https://observablehq.com/@yy/covid-19-confirmed-vs-new-cases){target="_blank"} 
@@ -142,7 +143,8 @@ dat %>% as_tibble() %>%
 
 - [Battling Coronavirus Inside a N.Y.C. Hospital | NYT News](https://www.youtube.com/watch?v=bE68xVXf8Kw){target="_blank"}
 
-### Other 
+**Other**
+
 
  - [Github repo for this site](https://github.com/skagitstats/covid-19){target="_blank"} 
 
@@ -156,7 +158,7 @@ dat %>% as_tibble() %>%
 // Load the Observable runtime and inspector.
 import {Runtime, Inspector, Library} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
 
-const runtime = new Runtime(Object.assign(new Library));
+const runtime = new Runtime(Object.assign(new Library, {width : 500}));
 const main = runtime.module(notebook, name => {
   if (name === "skagitCaseChart") {
     return new Inspector(document.querySelector("#skagitCaseChart"));
@@ -185,7 +187,7 @@ import notebook from "https://api.observablehq.com/@marshallbrown/covid-19-in-wa
 import {Runtime, Inspector, Library} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
 import notebook2 from "https://api.observablehq.com/@marshallbrown/covid-19-in-washington-state/2.js?v=3";
 
-const runtime2 = new Runtime(Object.assign(new Library, {width : 500}));
+const runtime2 = new Runtime(Object.assign(new Library, {width : 600}));
 const main2 = runtime2.module(notebook2, name => {
   if (name === "chart") {
     return new Inspector(document.querySelector("#chart"));
@@ -193,8 +195,6 @@ const main2 = runtime2.module(notebook2, name => {
   
 
 });
-
-// Your notebook, compiled as an ES module.
 
 
 </script>
