@@ -107,13 +107,13 @@ dat %>% as_tibble() %>%
 
 ### Dashboards 
 
-- [Washington State Department of Health](https://www.doh.wa.gov/emergencies/coronavirus){target="_blank"}. Includes data on testing. 
+  1.  [Washington State Department of Health](https://www.doh.wa.gov/emergencies/coronavirus){target="_blank"}. Includes data on testing. 
 
-- [United States COVID-19 Tracker](https://schnerd.github.io/us-covid-dashboard/){target="_blank"}. Very effective dashboard to compare US states. 
+  2.  [United States COVID-19 Tracker](https://schnerd.github.io/us-covid-dashboard/){target="_blank"}. Very effective dashboard to compare US states. 
 
-- [Worldwide cases](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6){target="_blank"} from Johns Hopkins. 
+  3. [Worldwide cases](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6){target="_blank"} from Johns Hopkins. 
 
-- [Genomic epidemiology of novel coronavirus at nextstrain](https://nextstrain.org/ncov){target="_blank"}. Science! 
+  4.  [Genomic epidemiology of novel coronavirus at nextstrain](https://nextstrain.org/ncov){target="_blank"}. Science! 
 
 
 ### Blogs
