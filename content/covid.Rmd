@@ -71,7 +71,7 @@ The heatmap shows cases per capita, which is also included in the table below.
 > _(mobile users turn device for best viewing)_
 
 
-<div id="chart" style="max-width:700px"></div>
+<div id="chart" style="max-width:500"></div>
 
  
 
@@ -185,7 +185,7 @@ import notebook from "https://api.observablehq.com/@marshallbrown/covid-19-in-wa
 import {Runtime, Inspector, Library} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
 import notebook2 from "https://api.observablehq.com/@marshallbrown/covid-19-in-washington-state/2.js?v=3";
 
-const runtime2 = new Runtime(Object.assign(new Library, {width : 700}));
+const runtime2 = new Runtime(Object.assign(new Library, {width : 500}));
 const main2 = runtime2.module(notebook2, name => {
   if (name === "chart") {
     return new Inspector(document.querySelector("#chart"));
