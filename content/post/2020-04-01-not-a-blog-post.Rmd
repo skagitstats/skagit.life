@@ -2,16 +2,16 @@
 title: There may be a blog post here someday 
 author: Marshall
 date: '2020-04-01'
-slug: introducing-hugo-tint
+slug: not-a-blog-post
 categories: ["Blogdown", "example"]
 excerpt: But not today
-bibliography: skeleton.bib
 link-citations: yes
 draft: no
 blogdown::html_page:
   dev: "svg"
   toc: TRUE
 ---
+But not today. 
 
 seriously, its not. 
 

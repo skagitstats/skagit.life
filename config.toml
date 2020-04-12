@@ -1,54 +1,53 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Skagit/Life"
-theme = "hugo-tint"
+title = "Skagit Life"
+theme = "hugo-ivy"
 googleAnalytics = "UA-162547372-1"
 disqusShortname = ""
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-
-
-
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
+footnotereturnlinkcontents = "↩"
 
 [permalinks]
-    post = "/:year/:month/:day/:slug/"
+    post = "/post/:year/:month/:day/:slug/"
+    note = "/note/:year/:month/:day/:slug/"
 
 [[menu.main]]
-    name = "Skagit/Life"
-    url = ""
-
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "Covid"
+    url = "/covid"
+    weight = 4
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+[[menu.main]]
+    name = "Notes"
+    url = "/note/"
+    weight = 3
+  
+[[menu.main]]
+    name = "Posts"
+    url = "/post/"
+    weight = 5
+    
+[params.logo]
+    img = "/images/logo.png"
+    url = "/"
+    height = 75
+    width = 75
+    alt = "homegrown"
+    tag = "Data and life in the Skagit Valley"
+    
+    
+    
 [params]
-    title = "Skagit/Life"
-    description = "A not so strange place"
-	  showPoweredBy = false
-    copyrightHolder = "Marshall D. Brown"
+    footer = "&copy; [Marshall Brown](https://marshalldbrown.com) 2020 | [Github](https://github.com/skagitstats) | [Twitter](https://twitter.com/bignumbersbrown)"
 
-    # options for highlight.js (version, additional languages, and theme)
-    highlightjsVersion = "9.12.0"
-    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
-    highlightjsLang = ["r", "yaml"]
-    highlightjsTheme = "github"
-
-    MathJaxCDN = "//cdn.bootcss.com"
-    MathJaxVersion = "2.7.1"
-
-    [params.logo]
-    url = "/images/logo8.png"
-    width = 50
-    height = 50
-    alt = "Homegrown"
-	
-	# social icons used in footer
-	# can use any font awesome icon: http://fontawesome.io/icons/
-    [[params.social]]
-    name = "GitHub"
-    icon = "github"
-    link = "https://github.com/skagitstats"
-    [[params.social]]
-    name = "Twitter"
-    icon = "twitter"
-    link = "https://twitter.com/bignumbersbrown"
-    [[params.social]]
-    name = "LinkedIn"
-    icon = "linkedin-square"
-    link = "https://www.linkedin.com/in/marshall-d-brown"
-
+  highlightjsVersion = "9.12.0"
+  highlightjsCDN = "//cdn.bootcss.com"
+  highlightjsLang = ["r", "yaml", "tex"]
+  highlightjsTheme = "github"
