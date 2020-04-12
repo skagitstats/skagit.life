@@ -38,12 +38,12 @@ pop <- read_csv("../../covid-19/data/populations.csv")
 
 <div id="skagitCaseChart" style="max-width:700px" ></div>
 
-
+<div id="SkagitRecoverChart" style="max-width:700px"></div>
 
 <div id="SkagitHospitalChart" style="max-width:700px"></div>
 
-
 <div id="SkagitDeathChart" style="max-width:700px"></div>
+
 
  - *Cases include total confirmed and presumptive positives, which means that a private lab reported a positive test.*
 
@@ -163,7 +163,9 @@ const main = runtime.module(notebook, name => {
   if (name === "skagitCaseChart") {
     return new Inspector(document.querySelector("#skagitCaseChart"));
   }
-  
+    if(name === "SkagitRecoverChart"){
+    return new Inspector(document.querySelector("#SkagitRecoverChart"))
+    }
  if (name === "SkagitDeathChart") {
     return new Inspector(document.querySelector("#SkagitDeathChart"));
   }
