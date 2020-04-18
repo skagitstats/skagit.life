@@ -100,6 +100,9 @@
 <div id="skagitCaseChart" style="max-width:700px">
 
 </div>
+<div id="SkagitRecoverChart" style="max-width:700px">
+
+</div>
 <div id="SkagitHospitalChart" style="max-width:700px">
 
 </div>
@@ -127,7 +130,7 @@
 </div>
 <hr />
 <div id="htmlwidget-1" style="width:95%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-1">{"x":{"filter":"none","data":[["Adams","Asotin","Benton","Chelan","Clallam","Clark","Columbia","Cowlitz","Douglas","Ferry","Franklin","Grant","Grays Harbor","Island","Jefferson","King","Kitsap","Kittitas","Klickitat","Lewis","Lincoln","Mason","Okanogan","Pacific","Pend Oreille","Pierce","San Juan","Skagit","Skamania","Snohomish","Spokane","Stevens","Thurston","Unknown","Wahkiakum","Walla Walla","Whatcom","Whitman","Yakima"],["30","4","234","45","11","220","1","23","16","1","107","101","8","155","28","4,119","128","15","12","18","1","18","14","1","1","881","12","178","2","1,801","255","6","81","815","2","21","250","13","447"],[152,18,116,58,14,46,25,21,37,13,113,104,11,184,88,184,47,32,54,23,9,27,33,5,7,99,70,139,17,221,50,13,28,null,45,34,111,26,178],["0","0","25","3","0","14","0","0","0","0","2","2","0","7","0","279","1","0","1","2","0","0","0","0","0","19","0","5","0","66","14","0","1","0","0","0","23","0","19"],[0,0,12,4,0,3,0,0,0,0,2,2,0,8,0,12,0,0,5,3,0,0,0,0,0,2,0,4,0,8,3,0,0,null,0,0,10,0,8],["19,759","22,610","201,877","77,036","76,737","481,857","4,059","108,987","42,907","7,649","94,347","97,331","73,901","84,460","31,729","2,233,163","269,805","47,364","22,107","79,604","10,740","65,507","42,132","22,036","13,602","891,299","17,128","128,206","11,924","814,901","514,631","45,260","286,419","NA","4,426","60,922","225,685","49,791","251,446"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>County<\/th>\n      <th>Total Cases<\/th>\n      <th>Cases per 100K<\/th>\n      <th>Total Deaths<\/th>\n      <th>Deaths per 100K<\/th>\n      <th>Population<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"scrollX":true,"order":[[2,"desc"]],"dom":"ftp","pageLength":10,"columnDefs":[{"className":"dt-right","targets":[2,4]}],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"filter":"none","data":[["Adams","Asotin","Benton","Chelan","Clallam","Clark","Columbia","Cowlitz","Douglas","Ferry","Franklin","Grant","Grays Harbor","Island","Jefferson","King","Kitsap","Kittitas","Klickitat","Lewis","Lincoln","Mason","Okanogan","Pacific","Pend Oreille","Pierce","San Juan","Skagit","Skamania","Snohomish","Spokane","Stevens","Thurston","Unknown","Wahkiakum","Walla Walla","Whatcom","Whitman","Yakima"],["40","10","284","63","15","265","1","26","32","1","156","132","12","163","28","4,811","132","15","16","19","2","21","15","1","1","1,064","13","218","3","2,031","297","7","86","815","2","27","271","13","707"],[202,44,141,82,20,55,25,24,75,13,165,136,16,193,88,215,49,32,72,24,19,32,36,5,7,119,76,170,25,249,58,15,30,null,45,44,120,26,281],["0","0","34","6","0","15","0","0","1","0","4","2","0","8","0","322","1","0","2","2","0","0","0","0","0","30","0","6","0","85","17","1","1","0","0","0","25","0","29"],[0,0,17,8,0,3,0,0,2,0,4,2,0,9,0,14,0,0,9,3,0,0,0,0,0,3,0,5,0,10,3,2,0,null,0,0,11,0,12],["19,759","22,610","201,877","77,036","76,737","481,857","4,059","108,987","42,907","7,649","94,347","97,331","73,901","84,460","31,729","2,233,163","269,805","47,364","22,107","79,604","10,740","65,507","42,132","22,036","13,602","891,299","17,128","128,206","11,924","814,901","514,631","45,260","286,419","NA","4,426","60,922","225,685","49,791","251,446"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>County<\/th>\n      <th>Total Cases<\/th>\n      <th>Cases per 100K<\/th>\n      <th>Total Deaths<\/th>\n      <th>Deaths per 100K<\/th>\n      <th>Population<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"scrollX":true,"order":[[2,"desc"]],"dom":"ftp","pageLength":10,"columnDefs":[{"className":"dt-right","targets":[2,4]}],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 <hr />
 <div id="other-resources" class="section level2">
 <h2>Other Resources</h2>
@@ -174,7 +177,9 @@ const main = runtime.module(notebook, name => {
   if (name === "skagitCaseChart") {
     return new Inspector(document.querySelector("#skagitCaseChart"));
   }
-  
+    if(name === "SkagitRecoverChart"){
+    return new Inspector(document.querySelector("#SkagitRecoverChart"))
+    }
  if (name === "SkagitDeathChart") {
     return new Inspector(document.querySelector("#SkagitDeathChart"));
   }

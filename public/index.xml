@@ -6,10 +6,32 @@
     <description>Recent content in Home on Skagit Life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Faithlife-Theological-Favorites-Sankey</title>
+      <link>/post/2020/04/18/faithlife-theological-favorites-sankey/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/04/18/faithlife-theological-favorites-sankey/</guid>
+      <description>As we are stuck at home amid the current covid-19 crisis, I thought I’d take advantage of everyones increased engagement with Instagram on posts where follower vote-by-comment on their favorites.
+(function() { var quotes = document.getElementsByTagName(&amp;#39;blockquote&amp;#39;), i, quote; for (i = 0; i &amp;lt; quotes.length; i++) { quote = quotes[i]; var n = quote.children.length; if (n === 0) continue; var el = quote.children[n - 1]; if (!el || el.nodeName !</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>This is the about page. Clearly, I should tell you what this site is &amp;lsquo;about&#39;^[That is for darn sure.].
+Websters dictionary defines &amp;lsquo;about&amp;rsquo; as
+ about, adverb: reasonably close to
+ which honestly I thought would be more helpful&amp;ndash;but now I&#39;m kind of flustered and want to bail on this whole idea of mine to &amp;lsquo;have a blog&amp;rsquo; where I &amp;lsquo;record my thoughts&amp;rsquo; about &amp;lsquo;things I am interested in&#39;^[data, R, being a human, music, this list is now causing me anxiety ] and &amp;lsquo;try to impress&amp;rsquo; any unfortunate soul who happens to click on something that causes their computer to arrange their precious screen pixels to show this horribly long sentence^[yikes].</description>
+    </item>
     
     <item>
       <title>There may be a blog post here someday</title>
@@ -25,13 +47,12 @@ like this 1
     </item>
     
     <item>
-      <title>About Hugo Ivy</title>
+      <title></title>
       <link>/about/</link>
-      <pubDate>Sun, 06 Aug 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>This Hugo theme was ported from Ivy, a minimalist website generator built in Python. I don&#39;t have time to document this theme. You have to read the source code to understand what it can do. All I can say for now is that I love it. It is clean, minimal, and responsive.
-I hope you will enjoy this theme. The source code is on Github. Happy hacking!</description>
+      <description>About       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
     </item>
     
     <item>
@@ -41,7 +62,7 @@ I hope you will enjoy this theme. The source code is on Github. Happy hacking!</
       
       <guid>/covid/</guid>
       <description>Total daily counts of covid-19 cases, hospitalizations and deaths reported by Skagit Public Health.
-    Cases include total confirmed and presumptive positives, which means that a private lab reported a positive test.
+     Cases include total confirmed and presumptive positives, which means that a private lab reported a positive test.
  Hospitalized are people with positive tests who were hospitalized at any point during their illness.
   The first case in Skagit Valley was reported on March 10, 2020.</description>
     </item>

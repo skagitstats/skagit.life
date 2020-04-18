@@ -1,0 +1,35 @@
+---
+title: Faithlife-Theological-Favorites-Sankey
+author: Marshall Brown
+date: '2020-04-18'
+slug: faithlife-theological-favorites-sankey
+categories:
+  - dataviz
+  - Instagram
+  - sankey
+  - theology
+tags:
+  - R
+  - ggplot2 
+---
+
+As we are stuck at home amid the current covid-19 crisis, I thought I'd take advantage of everyones increased engagement with Instagram on posts where follower vote-by-comment on their favorites.
+
+
+```js
+(function() {
+  var quotes = document.getElementsByTagName('blockquote'), i, quote;
+  for (i = 0; i < quotes.length; i++) {
+    quote = quotes[i];
+    var n = quote.children.length;
+    if (n === 0) continue;
+    var el = quote.children[n - 1];
+    if (!el || el.nodeName !== 'P') continue;
+    // right-align a quote footer if it starts with ---
+    if (/^—/.test(el.textContent)) el.style.textAlign = 'right';
+  }
+})();
+```
+
+
+

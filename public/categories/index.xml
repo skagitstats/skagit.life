@@ -6,10 +6,46 @@
     <description>Recent content in Categories on Skagit Life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>dataviz</title>
+      <link>/categories/dataviz/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/dataviz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Instagram</title>
+      <link>/categories/instagram/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/instagram/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sankey</title>
+      <link>/categories/sankey/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/sankey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>theology</title>
+      <link>/categories/theology/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/theology/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Blogdown</title>
