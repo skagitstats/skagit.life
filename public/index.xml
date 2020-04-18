@@ -27,9 +27,10 @@
       <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>Websters dictionary defines &amp;ldquo;about&amp;rdquo; as:
+      <description>Websters dictionary defines “about” as:
  about, adverb: reasonably close to
- which honestly I thought would be more helpful^[I didn&#39;t. The goof was meticulously planned from The Beginning.]&amp;ndash;but now I&#39;m kind of flustered and want to bail on this whole idea to &amp;ldquo;do a blog&amp;rdquo; about &amp;ldquo;things&amp;rdquo; I am &amp;ldquo;interested&amp;rdquo; in^[data, R, being a human, music, adding to this list is now causing me anxiety] and &amp;ldquo;try to impress&amp;rdquo; the unfortunate beings who happen to click on something that commands their computer to show screen pixels that reveal this sentence^[yikes].</description>
+ which honestly I thought would be more helpful1–but now I’m kind of flustered and want to bail on this whole idea to “do a blog” about “things” I am “interested” in2 and “try to impress” the unfortunate beings who happen to click on something that commands their computer to show screen pixels that reveal this sentence3.
+In conclusion, this is a place where patterns emerge on a server4 due to the vibrations of my brain5.</description>
     </item>
     
     <item>
@@ -43,15 +44,6 @@ seriously, its not.
 I’m just trying to plot something to see if it works.
 like this 1
  Figure 1: hmmm.  </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>About       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
     </item>
     
     <item>
