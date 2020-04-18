@@ -1,6 +1,7 @@
 ---
-title: Faithlife-Theological-Favorites-Sankey
-author: Marshall Brown
+title: Lets make a Sankey!
+subtitle: Theological favorites from the Faithlife Instagram feed
+author: M. Brown
 date: '2020-04-18'
 slug: faithlife-theological-favorites-sankey
 categories:
@@ -13,23 +14,46 @@ tags:
   - ggplot2 
 ---
 
-As we are stuck at home amid the current covid-19 crisis, I thought I'd take advantage of everyones increased engagement with Instagram on posts where follower vote-by-comment on their favorites.
+In many ways^[correction: *In all of the ways*], I am a simple man. If I see an opportunity to make a Sankey, I get my Sankey on. Here's the plan^[Stan]. 
+
+## The Plan 
+
+1. (explain plan here)^[whoops, I forgot. Nobody reads the plan right?]
 
 
-```js
-(function() {
-  var quotes = document.getElementsByTagName('blockquote'), i, quote;
-  for (i = 0; i < quotes.length; i++) {
-    quote = quotes[i];
-    var n = quote.children.length;
-    if (n === 0) continue;
-    var el = quote.children[n - 1];
-    if (!el || el.nodeName !== 'P') continue;
-    // right-align a quote footer if it starts with ---
-    if (/^—/.test(el.textContent)) el.style.textAlign = 'right';
-  }
-})();
+Ok, now to jump in and start coding! 
+
+
+```{r warning=FALSE, message=FALSE}
+library(ggplot2) #priorities 
+library(tidyverse)
+library(ggthemes)
+library(instaR) #devtools::install_github("pablobarbera/instaR/instaR")
+
+
 ```
 
+
+... okay after horsing around for a bit trying to get an access token for Instagram's API and being very sketchily asked to pretend to be a "business", upload a pic of my "app icon" and makeup something official sounding to put as my "privacy policy url"
+
+![](https://media.giphy.com/media/o9qT6CP4XyICY/giphy.gif)
+
+It was clear that... 
+
+![](https://media.giphy.com/media/Her8HwkH9Fa3S/source.gif)
+
+
+So I just asked jeeves^[google.com] and found [this](https://exportgram.com/) that let's you do it for free, with only the mild inconvenience of being the target of an upsell.^[I also opened it on google drive so it wouldn't give my computer the 'rona. ] 
+
+
+Time for the data dance. 
+
+![](https://media.giphy.com/media/adKO5QfPWW3bq/giphy.gif)
+
+
+```{r}
+
+
+```
 
 

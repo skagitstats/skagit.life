@@ -12,13 +12,14 @@
     
     
     <item>
-      <title>Faithlife-Theological-Favorites-Sankey</title>
+      <title>Lets make a Sankey!</title>
       <link>/post/2020/04/18/faithlife-theological-favorites-sankey/</link>
       <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/2020/04/18/faithlife-theological-favorites-sankey/</guid>
-      <description>As we are stuck at home amid the current covid-19 crisis, I thought I’d take advantage of everyones increased engagement with Instagram on posts where follower vote-by-comment on their favorites.
-(function() { var quotes = document.getElementsByTagName(&amp;#39;blockquote&amp;#39;), i, quote; for (i = 0; i &amp;lt; quotes.length; i++) { quote = quotes[i]; var n = quote.children.length; if (n === 0) continue; var el = quote.children[n - 1]; if (!el || el.nodeName !</description>
+      <description>In many ways1, I am a simple man. If I see an opportunity to make a Sankey, I get my Sankey on. Here’s the plan2.
+The Plan (explain plan here)3  Ok, now to jump in and start coding!
+library(ggplot2) #priorities library(tidyverse) library(ggthemes) library(instaR) #devtools::install_github(&amp;quot;pablobarbera/instaR/instaR&amp;quot;) … okay after horsing around for a bit trying to get an access token for Instagram’s API and being very sketchily asked to pretend to be a “business”, upload a pic of my “app icon” and makeup something official sounding to put as my “privacy policy url”</description>
     </item>
     
   </channel>
