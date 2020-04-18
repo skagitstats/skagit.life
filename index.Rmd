@@ -1,3 +1,9 @@
 ---
 site: blogdown:::blogdown_site
 ---
+
+When I was a kid, sitting in a car with my dad, I would sometimes ask 'are we there yet?' and he would say 
+
+> We are here, but we aren't there. 
+
+for some reason I thought to write that here. 
