@@ -11,7 +11,7 @@ title: About
 
 which I thought[^1] would be more relevant tbh. 
 
-I'm not so sure about this whole new trend to "do a blog" about "things" I am "interested" in [^2] to "try to impress" the imagined beings who may click on something that [commands](https://en.wikipedia.org/wiki/Imperative_mood) their computer to render this^[horse-shit (I am too nervous to cuss in the main body. This seems safer)]. It seems *presumptuious* and *rude*. 
+I'm not so sure [about](/about) this whole new trend to do a blog about topics I am interested in [^2] to try to impress the imagined beings who may click on something that [commands](https://en.wikipedia.org/wiki/Imperative_mood) their computer to render this[^6]. The whole 'blogosphere' seems *presumptuious* and *rude*. 
 
 In conclusion, this is a place where patterns are stored on a server due to the vibrations of my brain [^3]. [It will soon become extremely popular](https://en.wikipedia.org/wiki/The_Secret_(book)), since I plan to model it after McBeth's characterization of life itself [^4]. 
 
@@ -20,10 +20,12 @@ In conclusion, this is a place where patterns are stored on a server due to the 
 
 [^2]: data, existance, R, music, adding to this list is now causing me anxiety
 
-[^3]: I have nothing to do with it--I'm just along for the ride like you[^6]
+[^3]: I have nothing to do with it--I'm just along for the ride like you[^5]
 
 [^4]: act 5, sc. 5
 
-[^6]:It's a somewhat Malkovichian.
+[^5]:It's a somewhat Malkovichian.
+
+[^6]: horse-shit. It just seems safer cuss down here with the cool kids.
 
 Plus I live in the Skagit Valley, which explains the rest.  
