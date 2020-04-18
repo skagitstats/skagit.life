@@ -6,8 +6,8 @@ title: Home
 
 I once asked my dad *are we there yet*? and he said: 
 
-> We are here, but we aren't there.
+> [We are here, but we aren't there.[^1]](https://www.youtube.com/watch?v=D87SnJHxfS4)
 
-
+[^1] [.](https://www.youtube.com/watch?v=X8aWBcPVPMo)
 
 ---
