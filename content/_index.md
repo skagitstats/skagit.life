@@ -8,5 +8,6 @@ When I was a kid, sitting in a car with my dad, I would sometimes ask 'are we th
 
 > We are here, but we aren't there. 
 
-for some reason I thought to write that here. 
-All pages not under the root directory of the website are listed below. You can also visit the list page of a single section, e.g., [posts](/post/), or [notes](/note/).
+That somehow seems relevant. 
+
+---
