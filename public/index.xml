@@ -18,8 +18,8 @@
       
       <guid>/post/2020/04/18/faithlife-theological-favorites-sankey/</guid>
       <description>In many ways1, I am a simple man. If I see an opportunity to make a Sankey, I get my Sankey on. Here’s the plan2.
-The Plan (explain plan here)3  Ok, now to jump in and start coding!
-library(ggplot2) #priorities library(tidyverse) library(ggthemes) library(instaR) #devtools::install_github(&amp;quot;pablobarbera/instaR/instaR&amp;quot;) … okay after horsing around for a bit trying to get an access token for Instagram’s API and being very sketchily asked to pretend to be a “business”, upload a pic of my “app icon” and makeup something official sounding to put as my “privacy policy url”</description>
+The Plan (explain plan here)3   Implementation Ok, now to jump in and start coding!
+library(ggplot2) #priorities library(tidyverse) library(ggthemes) #library(instaR) #devtools::install_github(&amp;quot;pablobarbera/instaR/instaR&amp;quot;) I tried horsing around for a bit trying to get an access token for Instagram’s API, but there were too many words on the facebook developers page.</description>
     </item>
     
     <item>
@@ -43,8 +43,9 @@ In conclusion, this is a place where patterns are stored on a server due to the 
       <guid>/about/</guid>
       <description>Websters dictionary defines &amp;ldquo;about&amp;rdquo; as:
  about, adverb: reasonably close to
- which I thought1 would be more helpful in this context tbh.
-I&#39;m not so sure about this whole new trend to do a blog about topics I am interested in 2 to try to impress a handful of imagined beings who may click on something that commands their screen to render this3. The whole idea just seems presumptuous and rude.</description>
+ which isn&#39;t helpful1.
+I&#39;m not so sure about joining the current trend setters to do a blog about topics that interest me2. The whole idea seems presumptuous and rude.
+So, what words describe what this site is reasonably close to? It is a view of rendered patterns from a server that were initially arranged just so due to the vibrations that emerged from my brain 3 as I sat in my sauna one night, waiting for the Zolpidem to kick in.</description>
     </item>
     
     <item>

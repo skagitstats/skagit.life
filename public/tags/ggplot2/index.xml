@@ -18,8 +18,8 @@
       
       <guid>/post/2020/04/18/faithlife-theological-favorites-sankey/</guid>
       <description>In many ways1, I am a simple man. If I see an opportunity to make a Sankey, I get my Sankey on. Here’s the plan2.
-The Plan (explain plan here)3  Ok, now to jump in and start coding!
-library(ggplot2) #priorities library(tidyverse) library(ggthemes) library(instaR) #devtools::install_github(&amp;quot;pablobarbera/instaR/instaR&amp;quot;) … okay after horsing around for a bit trying to get an access token for Instagram’s API and being very sketchily asked to pretend to be a “business”, upload a pic of my “app icon” and makeup something official sounding to put as my “privacy policy url”</description>
+The Plan (explain plan here)3   Implementation Ok, now to jump in and start coding!
+library(ggplot2) #priorities library(tidyverse) library(ggthemes) #library(instaR) #devtools::install_github(&amp;quot;pablobarbera/instaR/instaR&amp;quot;) I tried horsing around for a bit trying to get an access token for Instagram’s API, but there were too many words on the facebook developers page.</description>
     </item>
     
   </channel>
