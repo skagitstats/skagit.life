@@ -5,7 +5,7 @@ title: About
 ---
 
 
-A [*presumptuous* and *rude*](https://www.youtube.com/watch?v=Zh6EXnZ-Yjg) blog [about](https://www.youtube.com/watch?v=N5lIWti4VUw ) data, existence, R, music and other[^2] things that are typed out due to the vibrations emmanating from my brain [^3]. 
+A [*presumptuous* and *rude*](https://www.youtube.com/watch?v=Zh6EXnZ-Yjg) blog [about](https://www.youtube.com/watch?v=N5lIWti4VUw ) data, existence, R, music and other[^2] things that are typed out due to the vibrations emanating from my brain [^3]. 
 
 [It will soon become extremely popular](https://youtu.be/Z55nUBz1qwQ?t=43), since I plan to model it after Mr. MacBeth's characterization of life itself [^4]. 
 

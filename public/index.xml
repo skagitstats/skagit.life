@@ -17,9 +17,9 @@
       <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/2020/04/18/faithlife-theological-favorites-sankey/</guid>
-      <description>In many ways1, I am a simple man. If I see an opportunity to make a Sankey, I get my Sankey on. Here’s the plan2.
-The Plan (explain plan here)3   Implementation Ok, now to jump in and start coding!
-library(ggplot2) #priorities library(tidyverse) library(ggthemes) #library(instaR) #devtools::install_github(&amp;quot;pablobarbera/instaR/instaR&amp;quot;) I tried horsing around for a bit trying to get an access token for Instagram’s API, but there were too many words on the facebook developers page.</description>
+      <description>Faithlife posted this to their insta:
+         View this post on Instagram                     A post shared by Faithlife (@faithlifecorporation) on Apr 16, 2020 at 12:26pm PDT    Suddenly, a macrotous man appeard to me in a vision and said:
+ If you build it, they will come.</description>
     </item>
     
     <item>
@@ -41,11 +41,11 @@ In conclusion, this is a place where patterns are stored on a server due to the 
       <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>Websters dictionary defines &amp;ldquo;about&amp;rdquo; as:
- about, adverb: reasonably close to
- which isn&#39;t helpful1.
-I&#39;m not so sure about joining the current trend setters to do a blog about topics that interest me2. The whole idea seems presumptuous and rude.
-So, what words describe what this site is reasonably close to? It is a view of rendered patterns from a server that were initially arranged just so due to the vibrations that emerged from my brain 3 as I sat in my sauna one night, waiting for the Zolpidem to kick in.</description>
+      <description>A presumptuous and rude blog about data, existence, R, music and other1 things that are typed out due to the vibrations emanating from my brain 2.
+It will soon become extremely popular, since I plan to model it after Mr. MacBeth&#39;s characterization of life itself 3.
+I live in the Skagit Valley, which explains the domain name.
+  adding to this list is now causing me anxiety &amp;#x21a9;&amp;#xfe0e;
+ The views and opinions expressed on this site are those of the author&#39;s brain and do not necessarily reflect the official policy or position of the author 4.</description>
     </item>
     
     <item>
